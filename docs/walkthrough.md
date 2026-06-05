@@ -1,10 +1,10 @@
-# Nike_Explorer Walkthrough
+# MCP Explorer Walkthrough
 
 ## Overview
-I have successfully implemented the "Nike_Explorer" local-first multi-agent system. The system uses LangChain for orchestration, Chainlit for the UI, and connects to a local Ollama instance (`gemma4:e4b`).
+I have successfully implemented the "MCP Explorer" local-first multi-agent system. The system uses LangChain for orchestration, Chainlit for the UI, and connects to a local Ollama instance (`gemma4:e4b`).
 
 > [!NOTE]
-> All project code is located at: `[Nike_Explorer](file:///Users/kathi.s/NKExplorer/Nike_Explorer)`
+> All project code is located at: `[MCP Explorer](file:///Users/kathi.s/NKExplorer/Nike_Explorer)`
 
 ## Key Components
 
@@ -64,7 +64,7 @@ I have updated the architecture to include full observability with Langfuse and 
 
 ### Langfuse Integration Fixes
 - Addressed `LangchainCallbackHandler` object missing `flush` attribute error by implementing a fallback `hasattr` check to call `langfuse_handler.langfuse.flush()` safely during the teardown block of `app.py`.
-- Wrote and ran a headless `puppeteer` script (`verify_traces.js`) which logged into the Langfuse Dashboard at `http://localhost:3000`, navigated to the Nike Explorer project, and successfully validated that recent queries and LLM replies were being traced and stored correctly.
+- Wrote and ran a headless `puppeteer` script (`verify_traces.js`) which logged into the Langfuse Dashboard at `http://localhost:3000`, navigated to the MCP Explorer project, and successfully validated that recent queries and LLM replies were being traced and stored correctly.
 
 ### Results
 - The Docker environment is now cohesive, with `.env` driving both the app and langfuse configurations uniformly.
