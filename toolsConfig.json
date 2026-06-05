@@ -1,0 +1,10 @@
+{
+  "tools": [
+    "wikipedia",
+    "arxiv"
+  ],
+  "tool_inits": {
+    "wikipedia": "import wikipedia\nwikipedia.set_user_agent('NikeExplorer/1.0')\nlogger.info('Configured Wikipedia user agent dynamically from JSON!')",
+    "arxiv": "import arxiv\nlogger.info('Configured Arxiv dynamically from JSON!')"
+  }
+}

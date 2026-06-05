@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.env.test
+.env.prod
+.env.docker
+.env.local
+.env.*.local
+!.env.example
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node / Javascript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Docker compose logs / files (if any local)
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test screenshots
+tests/manual/screenshots/*.png
