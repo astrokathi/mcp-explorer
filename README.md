@@ -48,7 +48,8 @@ Nike_Explorer/
 ├── setup.sh              # Local virtualenv builder & dependencies installer
 ├── mcpConfig.json        # MCP server profiles configuration
 ├── toolsConfig.json      # Standard tool parameters configuration
-├── docs/
+├── docs/                 # Compiled static HTML site for GitHub Pages
+├── docs-md/              # Source Markdown documentation files
 │   └── walkthrough.md    # Detailed implementation walkthrough
 ├── core/
 │   ├── agent.py          # ReAct Agent implementation

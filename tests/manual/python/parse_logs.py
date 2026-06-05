@@ -11,7 +11,7 @@ def sanitize(text):
 
 def main():
     log_path = Path("/Users/kathi.s/.gemini/antigravity/brain/a7dd681c-7ee8-4f02-8fa7-224242ec388f/.system_generated/logs/transcript.jsonl")
-    output_path = Path("/Users/kathi.s/NKExplorer/Nike_Explorer/docs/session_history.md")
+    output_path = Path("/Users/kathi.s/NKExplorer/Nike_Explorer/docs-md/session_history.md")
     
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
