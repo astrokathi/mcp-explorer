@@ -3,6 +3,7 @@ site_description: Comprehensive technical and developer documentation for the MC
 site_author: Advanced Agentic Coding Team
 docs_dir: docs-md
 site_dir: docs
+use_directory_urls: false
 
 theme:
   name: material
