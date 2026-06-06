@@ -1,6 +1,14 @@
-# Nike Explorer 🚀
+# MCP Explorer 🚀
 
-Nike Explorer is a local-first, multi-agent query and search system. It leverages LangChain and LangGraph for orchestration, Chainlit for a responsive chat UI, Ollama for local LLM inference (`gemma4:e4b`), and Model Context Protocol (MCP) servers to load dynamic capabilities.
+[![Python Version](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/Orchestration-LangChain-brightgreen?logo=chainlink)](https://www.langchain.com/)
+[![Ollama](https://img.shields.io/badge/LLM-Ollama-purple)](https://ollama.com/)
+[![MCP](https://img.shields.io/badge/Protocol-MCP-orange)](https://modelcontextprotocol.io/)
+[![Langfuse](https://img.shields.io/badge/Observability-Langfuse-orange)](https://langfuse.com/)
+[![Docker](https://img.shields.io/badge/Docker-Supported-blue?logo=docker&logoColor=white)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+
+MCP Explorer is a local-first, multi-agent query and search system. It leverages LangChain and LangGraph for orchestration, Chainlit for a responsive chat UI, Ollama for local LLM inference (`gemma4:e4b`), and Model Context Protocol (MCP) servers to load dynamic capabilities.
 
 Additionally, the system features out-of-the-box observability with Langfuse and console trace logging.
 
@@ -39,7 +47,7 @@ Additionally, the system features out-of-the-box observability with Langfuse and
 ## 📁 Project Structure
 
 ```
-Nike_Explorer/
+MCP_Explorer/
 ├── config.py             # Single configuration source of truth (MCP_ENV based)
 ├── docker-compose.yml    # Langfuse server, database, worker, redis, minio & app
 ├── docker-run.sh         # Quick start shell script for the Docker stack
@@ -97,7 +105,7 @@ Nike_Explorer/
 
 ### Option B: Docker Compose Stack (With Langfuse Observability)
 
-The Docker Stack starts **Langfuse Server**, **MinIO**, **Redis**, **ClickHouse**, **PostgreSQL**, and the **Nike Explorer App** in one cohesive network.
+The Docker Stack starts **Langfuse Server**, **MinIO**, **Redis**, **ClickHouse**, **PostgreSQL**, and the **MCP Explorer App** in one cohesive network.
 
 1. **Launch the Stack**:
    Run the helper script which auto-generates secure encryption secrets and starts the build:
