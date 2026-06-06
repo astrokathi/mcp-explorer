@@ -131,3 +131,10 @@ The Docker Stack starts **Langfuse Server**, **MinIO**, **Redis**, **ClickHouse*
 This project is pre-configured with Git. Make sure to commit changes using standard guidelines:
 - Local `.env` credentials are **never** committed (ignored via `.gitignore`).
 - Dev screenshots under `tests/manual/screenshots/` and `.pytest_cache` folders are ignored.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
